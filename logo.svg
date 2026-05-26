@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+<title>Soul Visions Retreats logo</title>
+<desc>Silver crescent moon and lotus mark.</desc>
+<defs>
+  <linearGradient id="silver" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="0.45" stop-color="#c7c7c7"/>
+    <stop offset="1" stop-color="#7e7e7e"/>
+  </linearGradient>
+  <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<circle cx="160" cy="160" r="146" fill="#050505" stroke="url(#silver)" stroke-width="6"/>
+<path d="M210 52c-48 13-83 56-83 108 0 56 41 102 94 111-14 8-31 12-49 12-68 0-123-55-123-123S104 37 172 37c14 0 27 2 38 7z" fill="url(#silver)" opacity="0.95" filter="url(#glow)"/>
+<g fill="none" stroke="url(#silver)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M160 220c-2-42 16-73 54-93-2 43-19 74-54 93z"/>
+  <path d="M160 220c2-42-16-73-54-93 2 43 19 74 54 93z"/>
+  <path d="M160 220c-24-26-27-62 0-96 27 34 24 70 0 96z"/>
+  <path d="M105 210c29 28 80 28 110 0"/>
+  <path d="M130 242c20 12 40 12 60 0"/>
+</g>
+</svg>
