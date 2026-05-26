@@ -270,12 +270,18 @@ h3 { font-size: 1.75rem; margin-bottom: 12px; }
 
 .founder-image img {
     width: 100%;
+    max-width: 420px;
     border-radius: 28px;
     display: block;
     object-fit: cover;
     box-shadow: 0 30px 60px rgba(0,0,0,0.45);
+    margin: 0 auto;
 }
-
+.founder-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .founder-content h2 {
     font-size: clamp(2.6rem, 5vw, 4.5rem);
     line-height: 1.05;
