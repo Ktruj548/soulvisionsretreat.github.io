@@ -55,7 +55,9 @@ a { color: inherit; text-decoration: none; }
   place-items: center;
   text-align: center;
   padding: 120px 24px 80px;
-  background: url('images/hero.svg') center/cover no-repeat;
+  background:
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.70)),
+    url("images/hero_photo.jpg") center/cover no-repeat;
   overflow: hidden;
 }
 
@@ -137,7 +139,9 @@ h3 { font-size: 1.75rem; margin-bottom: 12px; }
   min-height: 720px;
   display: grid;
   place-items: center;
-  background: linear-gradient(rgba(0,0,0,0.54), rgba(0,0,0,0.84)), url('images/hero.svg') center/cover fixed no-repeat;
+  background:
+    linear-gradient(rgba(0,0,0,0.58), rgba(0,0,0,0.86)),
+    url("images/hero_photo.jpg") center/cover fixed no-repeat;
 }
 .glass-panel {
   max-width: 760px;
@@ -335,3 +339,4 @@ h3 { font-size: 1.75rem; margin-bottom: 12px; }
         align-items: center;
     }
 }
+
